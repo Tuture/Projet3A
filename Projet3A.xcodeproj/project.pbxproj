@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E9481CE1FD711FB00AA9998 /* PointsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9481CD1FD711FB00AA9998 /* PointsTableViewController.swift */; };
+		6E9481D01FD7123100AA9998 /* AddPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9481CF1FD7123100AA9998 /* AddPointViewController.swift */; };
+		6E9481D21FD7140300AA9998 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9481D11FD7140300AA9998 /* Point.swift */; };
 		8DF997D01FD586E400226A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF997CF1FD586E400226A5F /* AppDelegate.swift */; };
-		8DF997D21FD586E400226A5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF997D11FD586E400226A5F /* ViewController.swift */; };
 		8DF997D51FD586E400226A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF997D31FD586E400226A5F /* Main.storyboard */; };
 		8DF997D81FD586E400226A5F /* Projet3A.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DF997D61FD586E400226A5F /* Projet3A.xcdatamodeld */; };
 		8DF997DA1FD586E400226A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF997D91FD586E400226A5F /* Assets.xcassets */; };
@@ -35,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E9481CD1FD711FB00AA9998 /* PointsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsTableViewController.swift; sourceTree = "<group>"; };
+		6E9481CF1FD7123100AA9998 /* AddPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPointViewController.swift; sourceTree = "<group>"; };
+		6E9481D11FD7140300AA9998 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		8DF997CC1FD586E400226A5F /* Projet3A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projet3A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF997CF1FD586E400226A5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DF997D11FD586E400226A5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DF997D41FD586E400226A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DF997D71FD586E400226A5F /* Projet3A.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Projet3A.xcdatamodel; sourceTree = "<group>"; };
 		8DF997D91FD586E400226A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				8DF997CF1FD586E400226A5F /* AppDelegate.swift */,
-				8DF997D11FD586E400226A5F /* ViewController.swift */,
 				8DF997D31FD586E400226A5F /* Main.storyboard */,
+				6E9481CD1FD711FB00AA9998 /* PointsTableViewController.swift */,
+				6E9481CF1FD7123100AA9998 /* AddPointViewController.swift */,
 				8DF997D91FD586E400226A5F /* Assets.xcassets */,
 				8DF997DB1FD586E400226A5F /* LaunchScreen.storyboard */,
 				8DF997DE1FD586E400226A5F /* Info.plist */,
 				8DF997D61FD586E400226A5F /* Projet3A.xcdatamodeld */,
+				6E9481D11FD7140300AA9998 /* Point.swift */,
 			);
 			path = Projet3A;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF997D21FD586E400226A5F /* ViewController.swift in Sources */,
+				6E9481CE1FD711FB00AA9998 /* PointsTableViewController.swift in Sources */,
+				6E9481D21FD7140300AA9998 /* Point.swift in Sources */,
+				6E9481D01FD7123100AA9998 /* AddPointViewController.swift in Sources */,
 				8DF997D81FD586E400226A5F /* Projet3A.xcdatamodeld in Sources */,
 				8DF997D01FD586E400226A5F /* AppDelegate.swift in Sources */,
 			);
